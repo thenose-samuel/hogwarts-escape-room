@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Cormorant";
+    src: url("../assets/fonts/Cormorant-Regular.ttf");
+}
+
+.navbar-brand {
+    font-family: "Cormorant";
+}
+
+.nav-link {
+    font-family: "Cormorant";
+}
