@@ -17,25 +17,29 @@
     margin: 0;
 }
 
+
 .header {
     background-image: linear-gradient(to bottom, rgba(2, 1, 1, 0.608), rgba(2, 1, 1, 0.708  )), url("../assets/images/landing-page-1.png");
+    object-fit: fill;
     height: fit-content;
 }
 
 .title {
     font-family: 'Harry Potter';
-    padding-top: 5%;
+    padding-top: 6%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     color: #F2AC0D;
-    font-size: 60px;
+    font-size: 48px;
 }
 
 .info {
-    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 14%;
     color: white;
     font-family: "EB Garamond";
     text-align: center;
@@ -84,4 +88,21 @@
     color: white;
     font-size: 12px;
     padding-bottom: 5%;
+}
+
+.landing-2 {
+    background-image: linear-gradient(to bottom, rgba(2, 1, 1, 0.85), rgba(2, 1, 1, 0.85 ));
+    position: relative;
+}
+
+.landing-2 .image {
+    width: 100%;
+}
+
+.landing-2 .text-heading {
+    width: 100%;
+    top: 0;
+    text-align: center;
+    color: white;
+    position: absolute;
 }
