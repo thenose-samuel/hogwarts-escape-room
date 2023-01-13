@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-brand">{ORGANISATION_NAME}</div>
-      <img src={Menu} />
+      <img src={Menu} alt="menu" />
       {/* <div className="navbar-links">Home</div> */}
     </div>
   );

@@ -25,7 +25,7 @@ function LandingPage() {
           </div>
         </div>
         <div className="entrance">
-          <img src={Entrance} />
+          <img src={Entrance} alt="entrance" />
         </div>
         <div className="lower-text">
           <div>DON'T FORGET TO CARRY A PEN AND NOTEBOOK</div>
