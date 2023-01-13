@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Harry Potter';
+    src: url('../assets/fonts/harry.ttf');
+}
+
+@font-face {
+    font-family: 'Wizard World';
+    src: url('../assets/fonts/WizardWorldSimplified.ttf');
+}
+
+@font-face {
+    font-family: "EB Garamond";
+    src: url('../assets/fonts/EBGaramond-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, rgba(2, 1, 1, 0.608), rgba(2, 1, 1, 0.708  )), url("../assets/images/landing-page-1.png");
+    height: fit-content;
+}
+
+.title {
+    font-family: 'Harry Potter';
+    padding-top: 5%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #F2AC0D;
+    font-size: 60px;
+}
+
+.info {
+    padding-top: 8%;
+    color: white;
+    font-family: "EB Garamond";
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+}
+
+.how-to-container {
+    margin-top: 4%;
+    padding-top: 6%;
+    background-color: rgba(25, 25, 25, 0.25);
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.how-to {
+    font-family: "Wizard World";
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.instructions {
+    padding-top: 8%;
+    color: white;
+    font-family: "EB Garamond";
+    font-weight: 200;
+    text-align: center;   
+    padding-bottom: 6%;
+}
+
+.entrance {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.lower-text {
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Wizard World';
+    color: white;
+    font-size: 12px;
+    padding-bottom: 5%;
+}
