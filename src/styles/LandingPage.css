@@ -13,6 +13,11 @@
     src: url('../assets/fonts/EBGaramond-VariableFont_wght.ttf');
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
 *{
     margin: 0;
 }
@@ -84,4 +89,85 @@
     color: white;
     font-size: 12px;
     padding-bottom: 5%;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b1b19;
+}
+
+.second .second-container {
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 50%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(37, 37, 37, 0.6);
+}
+
+.second-container .title {
+    text-align: center;
+    padding-top: 1.5rem;
+    color: white;
+    font-size: 22px;
+    font-family: 'Wizard World';
+    padding-bottom: 1.5rem;
+}
+
+.second-container .text {
+    font-family: "EB Garamond";
+    color: white;
+    text-align: center;
+    padding-bottom: 1.2rem;
+    font-size: 14px;
+}
+
+.second-container .text2 {
+    font-family: "EB Garamond";
+    color: white;
+    text-align: center;
+    padding-bottom: 1.2rem;
+    font-size: 14px;
+}
+
+.second-container .text2 a{
+    color: white;
+}
+
+.sized-box {
+    height: 1.8rem;
+}
+
+
+.footer {
+    background-color: rgb(28,54,49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .title {
+    font-family: "Cormorant";
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    width: 85%;
+}
+
+.footer .end {
+    color: #B7CBC7;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+
+.socials {
+    padding: 0.5rem;
+    width: 35%;
+}
+.sized-box-small {
+    height: 1rem;
 }
