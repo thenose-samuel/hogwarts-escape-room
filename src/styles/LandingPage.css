@@ -18,13 +18,26 @@
     src: url("../assets/fonts/Roboto-Regular.ttf");
 }
 
-*{
+* {
     margin: 0;
 }
 
+.landing {
+    background-color: #1B1B19;
+}
+
+.bg-image {
+    opacity: 0.4;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+}
+
 .header {
-    background-image: linear-gradient(to bottom, rgba(2, 1, 1, 0.608), rgba(2, 1, 1, 0.708  )), url("../assets/images/landing-page-1.png");
+    /* background-image: url("../assets/images/landing-page-1.png"); */
     height: fit-content;
+    opacity: 1 !important;
 }
 
 .title {
@@ -41,7 +54,7 @@
 
 .info {
     padding-top: 8%;
-    color: white;
+    color: rgba(255, 228, 165, 1);
     font-family: "EB Garamond";
     text-align: center;
     margin-left: 5%;
@@ -69,7 +82,7 @@
     color: white;
     font-family: "EB Garamond";
     font-weight: 200;
-    text-align: center;   
+    text-align: center;
     padding-bottom: 6%;
 }
 
@@ -102,7 +115,7 @@
     border-radius: 10px;
     padding: 0.5rem;
     width: 80%;
-    height: 50%; 
+    height: 50%;
     margin-left: 10%;
     margin-right: 10%;
     background-color: rgba(37, 37, 37, 0.6);
@@ -133,7 +146,7 @@
     font-size: 14px;
 }
 
-.second-container .text2 a{
+.second-container .text2 a {
     color: white;
 }
 
@@ -143,7 +156,7 @@
 
 
 .footer {
-    background-color: rgb(28,54,49);
+    background-color: rgb(28, 54, 49);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,6 +181,7 @@
     padding: 0.5rem;
     width: 35%;
 }
+
 .sized-box-small {
     height: 1rem;
 }

@@ -1,11 +1,13 @@
 import "../styles/LandingPage.css";
 import Navbar from "../components/Navbar";
 import Entrance from "../assets/images/entrance.png";
+import BGImage from "../assets/images/landing-page-1.png";
 import { ORGANISATION_NAME } from "../constants";
 import { ReactComponent as Social } from "../assets/images/Social.svg";
 function LandingPage() {
   return (
     <div className="landing">
+      <img src={BGImage} alt="bg-image" className="bg-image"></img>
       <div className="header">
         <Navbar />
         <div className="title">
