@@ -134,6 +134,8 @@
     font-size: 22px;
     font-family: 'Wizard World';
     padding-bottom: 1.5rem;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 
 .second-container .text {
@@ -142,6 +144,7 @@
     text-align: center;
     padding-bottom: 1.2rem;
     font-size: 14px;
+    
 }
 
 .second-container .text2 {
