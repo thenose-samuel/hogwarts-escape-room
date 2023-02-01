@@ -23,84 +23,90 @@
 }
 
 .landing {
-    background-color: #1B1B19;
+    /* background-color: #1B1B19; */
+    background: linear-gradient(rgba(27, 27, 25, 0.7),rgba(27, 27, 25, 0.9));
 }
 
 .bg-image {
-    opacity: 0.4;
+    /* opacity: 0.4; */
+    z-index: -1;
     position: absolute;
-    height: auto;
+    height: 100vh;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)); 
 }
 
 .header {
     /* background-image: url("../assets/images/landing-page-1.png"); */
-    height: fit-content;
+    height: 100vh;
     opacity: 1 !important;
 }
 
 .title {
     font-family: 'Harry Potter';
-    padding-top: 5%;
+    padding-top: 6vh;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     color: #F2AC0D;
-    font-size: 60px;
+    font-size: 85px;
 }
 
 .info {
-    padding-top: 8%;
-    color: rgba(255, 228, 165, 1);
+    padding-top: 6vh;
+    color: #FFE4A5;
     font-family: "EB Garamond";
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 18px;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    font-size: 20px;
 }
 
-.how-to-container {
+/* .how-to-container {
     margin-top: 4%;
     padding-top: 6%;
     background-color: rgba(25, 25, 25, 0.25);
     margin-left: 8%;
     margin-right: 8%;
-}
+} */
 
-.how-to {
+/* .how-to {
     font-family: "Wizard World";
     color: white;
     text-align: center;
     font-size: 20px;
-}
+} */
 
-.instructions {
+/* .instructions {
     padding-top: 8%;
     color: white;
     font-family: "EB Garamond";
     font-weight: 200;
     text-align: center;
     padding-bottom: 6%;
-}
+} */
 
 .entrance {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding-top: 6vh;
+    /* width: 50vh; */
+    height: 25vh;
 }
 
 .lower-text {
-    padding-top: 8%;
+    padding-top: 4vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     font-family: 'Wizard World';
-    color: white;
-    font-size: 12px;
+    color: #FFE4A5;
+    font-size: 14px;
     padding-bottom: 5%;
 }
 
@@ -108,7 +114,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1b1b19;
+    background-color: rgb(27, 27, 25);
 }
 
 .second .second-container {
@@ -124,7 +130,7 @@
 .second-container .title {
     text-align: center;
     padding-top: 1.5rem;
-    color: white;
+    color: #FFE4A5;
     font-size: 22px;
     font-family: 'Wizard World';
     padding-bottom: 1.5rem;
@@ -132,7 +138,7 @@
 
 .second-container .text {
     font-family: "EB Garamond";
-    color: white;
+    color: #FFE4A5;
     text-align: center;
     padding-bottom: 1.2rem;
     font-size: 14px;
@@ -140,14 +146,14 @@
 
 .second-container .text2 {
     font-family: "EB Garamond";
-    color: white;
+    color: #FFE4A5;
     text-align: center;
     padding-bottom: 1.2rem;
     font-size: 14px;
 }
 
 .second-container .text2 a {
-    color: white;
+    color: #FFE4A5;
 }
 
 .sized-box {
@@ -164,6 +170,7 @@
 }
 
 .footer .title {
+    padding-top: 2vh;
     font-family: "Cormorant";
     color: white;
     font-size: 22px;
@@ -184,4 +191,10 @@
 
 .sized-box-small {
     height: 1rem;
+}
+
+.horizontal-line {
+    margin-top: 2.5vh;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
 }
